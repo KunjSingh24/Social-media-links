@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+    color: papayawhip;
+}
+
+.box {
+    width: 400px;
+    height: 600px;
+    margin-left: 700px;
+    margin-top: 100px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dp {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(kunj.jpg);
+    margin-top: 10px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.details .addr {
+    background-color: black;
+    color: blueviolet;
+    margin-bottom: 15px;
+}
+
+.details .job , h1 {
+    background-color: black;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.links a {
+    padding: 5px;
+    height: 30px;
+    width: 300px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px;
+    background-color: gray;
+    font-weight: bold;
+   
+}
